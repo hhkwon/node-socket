@@ -1,0 +1,26 @@
+{
+  "name": "socket",
+  "version": "1.0.0",
+  "description": "nodejs socket을 활용",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nuxt": "nuxt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyukhwankwon/node-socket.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyukhwankwon/node-socket/issues"
+  },
+  "homepage": "https://github.com/hyukhwankwon/node-socket#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nuxt": "^1.4.2",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1"
+  }
+}
