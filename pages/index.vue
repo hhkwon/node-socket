@@ -5,11 +5,13 @@
         <h1>{{msg}}</h1>
     </div>
 </template>
-import socket from '~/plugin/socket.io.js'
+
+<script>
+import socket from '~/plugins/socket.io.js'
 export default {
     data () {
         return {
-            sendMessage='',
+            sendMessage: '',
             msg: ''
         }
     },
@@ -24,3 +26,4 @@ export default {
         })
     }
 }
+</script>
